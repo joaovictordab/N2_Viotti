@@ -65,7 +65,7 @@ public class Cliente {
     public void setMaioridade(String maioridade) {
         this.maioridade = maioridade;
     }
-
+    
     public String getMaioridade() {
         return maioridade;
     }

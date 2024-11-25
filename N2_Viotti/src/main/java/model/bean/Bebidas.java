@@ -65,16 +65,4 @@ public class Bebidas {
     public void setCodigoBebida(int codigoBebida) {
         this.codigoBebida = codigoBebida;
     }
-
-    public Bebidas(String name, String descricao, double preco, int quantidadeML, String tipo, boolean alcoolica,
-            int codigoBebida) {
-        this.nome = name;
-        this.descricao = descricao;
-        this.preco = preco;
-        this.quantidadeML = quantidadeML;
-        this.tipo = tipo;
-        this.alcoolica = alcoolica;
-        this.codigoBebida = codigoBebida;
-    }
-
 }

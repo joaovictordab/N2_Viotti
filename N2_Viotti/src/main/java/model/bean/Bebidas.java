@@ -66,9 +66,9 @@ public class Bebidas {
         this.codigoBebida = codigoBebida;
     }
 
-    public Bebidas(String nome, String descricao, double preco, int quantidadeML, String tipo, boolean alcoolica,
+    public Bebidas(String name, String descricao, double preco, int quantidadeML, String tipo, boolean alcoolica,
             int codigoBebida) {
-        this.nome = nome;
+        this.nome = name;
         this.descricao = descricao;
         this.preco = preco;
         this.quantidadeML = quantidadeML;

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="PlanoDeFundoAbrirComanda" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.n2_viotti.QuinaryController">
+   <children>
+      <ImageView id="img_PlanoDeFundo5" fitHeight="800.0" fitWidth="800.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/7.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btn5_VoltarCSS" fx:id="btn5_Voltar" layoutX="11.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0">
+          <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Voltar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+          </Button>
+      <Label id="lbl5_Voltar" layoutX="14.0" layoutY="75.0" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl5_Titulo" layoutX="253.0" layoutY="48.0" text="Gerenciar Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label id="lbl5_Comanda" layoutX="45.0" layoutY="144.0" text="Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button id="btn5_PesquisarCSS" fx:id="btn5_Pesquisar" layoutX="186.0" layoutY="174.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="41.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Pesquisar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn5_PagarCSS" fx:id="btn5_PagarCSS" layoutX="702.0" layoutY="732.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Pagar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl5_Pagar" layoutX="710.0" layoutY="704.0" text="Pagar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField id="txt5_ComandaCSS" fx:id="txt5_Comanda" layoutX="43.0" layoutY="176.0" prefHeight="29.0" prefWidth="130.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label id="lbl5_Total" layoutX="728.0" layoutY="144.0" text="Total">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt5_TotalCSS" fx:id="txt5_Total" layoutX="632.0" layoutY="176.0" prefHeight="29.0" prefWidth="130.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label id="lbl5_FormaPagamento" layoutX="138.0" layoutY="703.0" text="Formas de Pagamento">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl5_FormaPagamento" layoutX="334.0" layoutY="703.0" text="Valor Recebido">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl5_FormaPagamento" layoutX="514.0" layoutY="703.0" text="Troco">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt5_ValorRecebidoCSS" fx:id="txt5_ValorRecebido" layoutX="334.0" layoutY="734.0" prefHeight="29.0" prefWidth="153.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField id="txt5_TrocoCSS" fx:id="txt5_Troco" layoutX="514.0" layoutY="734.0" prefHeight="29.0" prefWidth="153.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox id="cmb5_FormasPagamentoCSS" fx:id="cmb5_FormasPagamento" layoutX="138.0" layoutY="734.0" prefHeight="29.0" prefWidth="179.0" />
+      <TableView id="tblView5_ComandaCSS" fx:id="tblView5_Comanda" editable="true" layoutX="38.0" layoutY="210.0" prefHeight="443.0" prefWidth="728.0" stylesheets="@../../../style/style.css">
+        <columns>
+          <TableColumn id="tblView5_HorarioCSS" fx:id="tblView5_Horario" prefWidth="93.0" text="Horario" />
+          <TableColumn id="tblView5_HorarioCSS" fx:id="tblView5_Produto" prefWidth="536.0" text="Produto" />
+            <TableColumn id="tblView5_HorarioCSS" fx:id="tblView5_Cancelar" prefWidth="98.0" text="Cancelar" />
+        </columns>
+      </TableView>
+      <Label id="lbl5_BuscarCPF" layoutX="345.0" layoutY="144.0" text="Buscar pelo CPF">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt5_BuscarCPFCSS" fx:id="txt5_BuscarCPF" layoutX="335.0" layoutY="176.0" prefHeight="29.0" prefWidth="130.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn5_PesquisarCPFCSS" fx:id="btn5_PesquisarCPF" layoutX="473.0" layoutY="174.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="41.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Pesquisar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="PlanoDeFundoGerenciamentoDeClientes" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.n2_viotti.TertiaryController">
+   <children>
+      <ImageView id="img_PlanoDeFundo3" fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/3.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btn3_VoltarCSS" fx:id="btn3_Voltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0">
+          <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Voltar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+          </Button>
+      <Label id="lbl3_Voltar" layoutX="17.0" layoutY="58.0" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_Titulo" layoutX="202.0" layoutY="75.0" text="Gerenciamento de Clientes">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label id="lbl3_CPF" layoutX="114.0" layoutY="150.0" text="CPF">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_RG" layoutX="465.0" layoutY="150.0" text="RG">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_NomeCompleto" layoutX="114.0" layoutY="253.0" text="Nome completo">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt3_NomeCompletoCSS" fx:id="txt3_NomeCompleto" layoutX="114.0" layoutY="280.0" prefHeight="29.0" prefWidth="600.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn3_PesquisarCSS" fx:id="btn3_Pesquisar" layoutX="370.0" layoutY="174.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="41.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Pesquisar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl3_DataNascimento" layoutX="114.0" layoutY="355.0" text="Data de Nascimento">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_Telefone" layoutX="111.0" layoutY="459.0" text="Telefone de Contato">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt3_TelefoneCSS" fx:id="txt3_Telefone" layoutX="111.0" layoutY="492.0" prefHeight="29.0" prefWidth="600.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label id="lbl3_Email" layoutX="113.0" layoutY="561.0" text="E-mail">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt3_EmailCSS" fx:id="txt3_Email" layoutX="114.0" layoutY="586.0" prefHeight="29.0" prefWidth="600.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn3_ExcluirCSS" fx:id="btn3_Excluir" layoutX="189.0" layoutY="680.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Excluir.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn3_EditarCSS" fx:id="btn3_Editar" layoutX="370.0" layoutY="680.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Editar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn3_SalvarCSS" fx:id="btn3_Salvar" layoutX="548.0" layoutY="680.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Salvar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl3_Excluir" layoutX="195.0" layoutY="656.0" text="Excluir">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_Editar" layoutX="379.0" layoutY="656.0" text="Editar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl3_Salvar" layoutX="556.0" layoutY="656.0" text="Salvar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField id="txt3_CpfCSS" fx:id="txt3_Cpf" layoutX="114.0" layoutY="176.0" prefHeight="29.0" prefWidth="248.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField id="txt3_RgCSS" fx:id="txt3_Rg" layoutX="465.0" layoutY="176.0" prefHeight="29.0" prefWidth="248.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <DatePicker id="datap3_NascimentoCSS" fx:id="datap3_Nascimento" layoutX="111.0" layoutY="382.0" prefHeight="15.0" prefWidth="237.0" />
+      <Label id="lbl3_MaiorIdade" layoutX="465.0" layoutY="356.0" text="Maior de Idade">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt3_MaiorIdadeCSS" fx:id="txt3_MaiorIdade" layoutX="463.0" layoutY="383.0" prefHeight="29.0" prefWidth="248.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>

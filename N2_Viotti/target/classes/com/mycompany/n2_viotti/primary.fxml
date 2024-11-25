@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="Main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.n2_viotti.PrimaryController">
+   <children>
+      <ImageView id="img_PlanoDeFundo1" fitHeight="800.0" fitWidth="800.0" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/1.jpg" />
+         </image>
+      </ImageView>
+
+      <Button id="btn_CbebidasCSS" fx:id="btn_Cbebidas" layoutX="173.0" layoutY="712.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Cerveja.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <Button id="btn_CclientesCSS" fx:id="btn_Cclientes" layoutX="274.0" layoutY="712.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Cliente.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <Button id="btn_AbrirComandaCSS" fx:id="btn_AbrirComanda" layoutX="377.0" layoutY="712.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Comanda.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <Button id="btn_GerenciarComandaCSS" fx:id="btn_GerenciarComanda" layoutX="478.0" layoutY="712.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_PagarComanda.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <Button id="btn_CardapioCSS" fx:id="btn_Cardapio" layoutX="583.0" layoutY="712.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="50.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Cardapio.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <!-- Botão para encerrar com imagem -->
+      <Button id="btn_EncerrarCSS" fx:id="btn_Encerrar" layoutX="764.0" layoutY="14.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="22.0">
+         <graphic>
+            <ImageView fitHeight="12.0" fitWidth="12.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Fechar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+      <!-- Labels -->
+      <Label id="lbl_Cbebidas" layoutX="176.0" layoutY="752.0" prefHeight="15.0" prefWidth="45.0" text="Bebidas" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="10.0" />
+         </font>
+      </Label>
+
+      <Label id="lbl_Ccliente" layoutX="279.0" layoutY="753.0" text="Clientes">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="10.0" />
+         </font>
+      </Label>
+
+      <Label id="lbl_AbrirComanda" layoutX="365.0" layoutY="753.0" text="Abrir Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="10.0" />
+         </font>
+      </Label>
+
+      <Label id="lbl_EncerrarComanda" layoutX="454.0" layoutY="753.0" text="Gerenciar Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="10.0" />
+         </font>
+      </Label>
+
+      <Label id="lbl_Cardapio" layoutX="586.0" layoutY="753.0" text="Cardápio">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

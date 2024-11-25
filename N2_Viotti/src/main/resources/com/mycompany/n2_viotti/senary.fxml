@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="PlanoDeFundoAbrirComanda" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.n2_viotti.SenaryController">
+   <children>
+      <ImageView id="img_PlanoDeFundo6" fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/4.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btn6_VoltarCSS" fx:id="btn6_Voltar" layoutX="11.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0">
+          <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Voltar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+          </Button>
+      <Label id="lbl6_Voltar" layoutX="14.0" layoutY="67.0" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl4_Titulo" layoutX="350.0" layoutY="27.0" text="Menu">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label id="lbl6_Cerveja" layoutX="45.0" layoutY="131.0" text="Cervejas">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button id="btn6_AdicionarCSS" fx:id="btn6_Adicionar" layoutX="702.0" layoutY="730.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Comanda.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl6_Adicionar" layoutX="700.0" layoutY="697.0" text="Adicionar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Comanda" layoutX="46.0" layoutY="695.0" text="Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Produto" layoutX="187.0" layoutY="696.0" text="Produto">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Quantidade" layoutX="374.0" layoutY="696.0" text="Quantidade">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt6_ProdutoCSS" fx:id="txt6_Produto" layoutX="196.0" layoutY="732.0" prefHeight="29.0" prefWidth="153.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField id="txt6_QuantidadeCSS" fx:id="txt6_Quantidade" layoutX="374.0" layoutY="732.0" prefHeight="29.0" prefWidth="88.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label id="lbl6_Softs" layoutX="214.0" layoutY="131.0" text="Softs">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Cerveja" layoutX="466.0" layoutY="131.0" text="Drinks Autorais">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img6_C" fitHeight="61.0" fitWidth="69.0" layoutX="343.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_C.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_VBA" fitHeight="53.0" fitWidth="61.0" layoutX="343.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_VBA.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Python" fitHeight="53.0" fitWidth="78.0" layoutX="326.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Python.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Java" fitHeight="44.0" fitWidth="78.0" layoutX="334.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Java.png" />
+         </image>
+      </ImageView>
+      <Label id="lbl6_PrecoJava" layoutX="358.0" layoutY="263.0" text="39,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoPython" layoutX="358.0" layoutY="341.0" text="29,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoC" layoutX="358.0" layoutY="438.0" text="24,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoVBA" layoutX="358.0" layoutY="552.0" text="19,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text id="txt_DescricaoJava" layoutX="427.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Um drink clássico feito de forma complexa para embaralhar a sua mente" wrappingWidth="268.693359375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text id="txt_DescricaoPython" layoutX="433.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tem o mesmo paladar do Java, porém feito de forma mais sofisticada e simples" wrappingWidth="268.693359375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text id="txt_DescricaoC" layoutX="433.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Um drink que originou o drink Java, mas é sempre bom dar uma googlada         by Joel" wrappingWidth="268.693359375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text id="txt_DescricaoVBA" layoutX="433.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Um drink forte e perfumado, pedimos a você que prove para nos dar um feedback      by Humberto" wrappingWidth="306.693359375">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextField id="txt6_ComandaCSS" fx:id="txt6_Comanda" layoutX="46.0" layoutY="732.0" prefHeight="29.0" prefWidth="121.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label id="lbl6_Total" layoutX="488.0" layoutY="696.0" text="Total">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt6_TotalCSS" fx:id="txt6_Total" layoutX="488.0" layoutY="732.0" prefHeight="29.0" prefWidth="113.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn6_ComandaCSS" fx:id="btn6_Comanda" layoutX="705.0" layoutY="31.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_PagarComanda.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl6_Comanda" layoutX="696.0" layoutY="76.0" text="Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button id="btn6_MaisOpcoesCSS" fx:id="btn6_MaisOpcoes" layoutX="702.0" layoutY="617.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Opcoes.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl6_MaisOpcoes" layoutX="691.0" layoutY="591.0" text="Mais Opções">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoHeineken" layoutX="67.0" layoutY="256.0" text="14,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoBudwaiser" layoutX="67.0" layoutY="386.0" text="12,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoCorona" layoutX="66.0" layoutY="526.0" text="13,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Heineken" layoutX="56.0" layoutY="174.0" text="Heineken">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Budweiser" layoutX="52.0" layoutY="297.0" text="Budweiser">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Corona" layoutX="61.0" layoutY="438.0" text="Corona">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Agua" layoutX="221.0" layoutY="174.0" text="Água">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoAgua" layoutX="222.0" layoutY="256.0" text="4,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Redbull" layoutX="214.0" layoutY="297.0" text="Redbull">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoAgua" layoutX="219.0" layoutY="386.0" text="14,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_PrecoRefrigerante" layoutX="222.0" layoutY="526.0" text="6,99">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl6_Corona" layoutX="199.0" layoutY="438.0" text="Refrigerante">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img6_Redbull" fitHeight="44.0" fitWidth="78.0" layoutX="214.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Redbull.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Agua" fitHeight="53.0" fitWidth="53.0" layoutX="208.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Refrigerante" fitHeight="61.0" fitWidth="34.0" layoutX="219.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Refrigerante.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Heineken" fitHeight="53.0" fitWidth="53.0" layoutX="62.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Heineken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Budweiser" fitHeight="61.0" fitWidth="57.0" layoutX="55.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Budweiser.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img6_Corona" fitHeight="61.0" fitWidth="62.0" layoutX="52.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Icons/Icone_Corona.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btn6_LimparCSS" fx:id="btn6_Limpar" layoutX="626.0" layoutY="730.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Limpar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl6_Limpar" layoutX="626.0" layoutY="696.0" text="Limpar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

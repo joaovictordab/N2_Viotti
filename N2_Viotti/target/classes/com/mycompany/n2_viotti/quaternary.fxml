@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="PlanoDeFundoAbrirComanda" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" stylesheets="@../../../style/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.n2_viotti.QuaternaryController">
+   <children>
+      <ImageView id="img_PlanoDeFundo4" fitHeight="800.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Image/6.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btn4_VoltarCSS" fx:id="btn4_Voltar" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="47.0">
+          <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Voltar.png" />
+               </image>
+            </ImageView>
+         </graphic>
+          </Button>
+      <Label id="lbl4_Voltar" layoutX="17.0" layoutY="58.0" text="Voltar">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl4_Titulo" layoutX="300.0" layoutY="75.0" text="Abrir Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label id="lbl4_CPF" layoutX="114.0" layoutY="150.0" text="CPF">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="lbl4_NomeCompleto" layoutX="114.0" layoutY="253.0" text="Nome completo">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt4_NomeCompletoCSS" fx:id="txt4_NomeCompleto" layoutX="114.0" layoutY="280.0" prefHeight="29.0" prefWidth="600.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn4_PesquisarCSS" fx:id="btn4_Pesquisar" layoutX="370.0" layoutY="174.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="41.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Pesquisar.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl4_Telefone" layoutX="111.0" layoutY="361.0" text="Telefone de Contato">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txt4_TelefoneCSS" fx:id="txt4_TelefoneContato" layoutX="111.0" layoutY="394.0" prefHeight="29.0" prefWidth="600.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Button id="btn4_GerenciarComandaCSS" fx:id="btn4_GerenciarComanda" layoutX="287.0" layoutY="680.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_PagarComanda.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn4_AbrirComandaCSS" fx:id="btn4_AbrirComanda" layoutX="475.0" layoutY="680.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+          <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Comanda.png" />
+                 
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl4_GerenciarComanda" layoutX="255.0" layoutY="656.0" text="Gerenciar Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="lbl4_AbrirComanda" layoutX="457.0" layoutY="656.0" text="Abrir Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField id="txt4_CpfCSS" fx:id="txt4_Cpf" layoutX="114.0" layoutY="176.0" prefHeight="29.0" prefWidth="248.0">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="14.0" />
+         </font>
+      </TextField>
+      <TextField id="txt4_NumeroComandaCSS" fx:id="txt4_NumeroComanda" alignment="CENTER" layoutX="111.0" layoutY="524.0" prefHeight="115.0" prefWidth="600.0" promptText="XXXX">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </TextField>
+      <Button id="btn4_GerarComandaCSS" fx:id="btn4_GerarComanda" layoutX="384.0" layoutY="471.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="53.0">
+         <graphic>
+            <ImageView fitHeight="21.0" fitWidth="21.0">
+               <image>
+                  <Image url="@../../../Icons/Icone_Engrenagem.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label id="lbl4_GerarComanda" layoutX="364.0" layoutY="444.0" text="Gerar Comanda">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,616 @@
+#btn_CbebidasCSS {
+    -fx-background-color: #f9cb0f;
+}
+
+#btn_CclientesCSS {
+    -fx-background-color: #f9cb0f;
+}
+
+#btn_AbrirComandaCSS {
+    -fx-background-color: #f9cb0f;
+}
+
+#btn_GerenciarComandaCSS {
+    -fx-background-color: #f9cb0f;
+}
+
+#btn_CardapioCSS{
+    -fx-background-color: #f9cb0f;
+}
+
+#btn_EncerrarCSS{
+    -fx-background-color: #f9cb0f;
+    -fx-background-radius: 13px;
+}
+
+/* Finalização do design da página principal */
+
+
+/*----------------------------------------------------------*/
+/* Inicio do design da tela de gerenciado de bebidas */
+
+#btn2_VoltarCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+
+/*Estilização da Primeira combo box (Tipo de bebida)*/
+#cmb2_TipoBebidaCSS {
+    -fx-background-color: black; 
+    -fx-border-color: black; 
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: white; 
+}
+
+/* Estiliza o botão da seta do ComboBox */
+#cmb2_TipoBebidaCSS .arrow-button {
+    -fx-background-color: black;
+    -fx-background-radius: 8px; 
+}
+
+/* Estilização do dropdown do ComboBox */
+#cmb2_TipoBebidaCSS .combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+/* Estilização dos itens na lista de opções */
+#cmb2_TipoBebidaCSS .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+/* FIM DA ESTILIZAÇÃO DA PRIMEIRA COMBO BOX (Tipo de Bebida)*/
+
+/*----------------------------------------------------------*/
+
+/* Começo da estilização COMBO BOX (Alcoólica) */
+
+#cmb2_AlcoolicaCSS {
+    -fx-background-color: black; 
+    -fx-border-color: black; 
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+}
+
+#cmb2_AlcoolicaCSS .arrow-button {
+    -fx-background-color: black;
+    -fx-background-radius: 8px;  
+}
+
+#cmb2_AlcoolicaCSS .combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+#cmb2_AlcoolicaCSS .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+/* Finalização da segunda COMBO BOX (ALCOOLICA)*/
+
+#txt2_NomeBebidaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+#btn2_PesquisarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-background-radius: 25px; 
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px; 
+}
+
+#txt2_DescricaoBebidaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt2_CodigoBebidaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+#txt2_PrecoBebidaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px; 
+}
+
+#txt2_QuantidadeMLBebidaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+#btn2_EditarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn2_SalvarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn2_ExcluirCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+
+/*----------------------------------------------------------*/
+/* ínicio do design da página de gerenciamento de clientes */
+
+#btn3_VoltarCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+
+#btn3_EditarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn3_SalvarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn3_ExcluirCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+
+#txt3_CpfCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt3_RgCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt3_NomeCompletoCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt3_MaiorIdadeCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px; 
+}
+#txt3_TelefoneCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt3_EmailCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+#datap3_NascimentoCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 2px;
+}
+
+#btn3_PesquisarCSS {
+    -fx-background-color: White; 
+    -fx-background-radius: 25px; 
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 1px; 
+}
+/*----------------------------------------------------------*/
+/* Inicio do design da tela de Abrir comanda */
+#btn4_GerenciarComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+}
+#btn4_AbrirComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10px;
+}
+#btn4_PesquisarCSS {
+    -fx-background-color: White; 
+    -fx-background-radius: 25px; 
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 1px; 
+}
+#btn4_GerarComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+#btn4_VoltarCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#txt4_TelefoneCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt4_NomeCompletoCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt4_CpfCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt4_NumeroComandaCSS {
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+/* FINALIZAÇÃO DA TELA 4 (ABRIR COMANDA) */
+
+/* COMEÇO DA TELA 5 (GERENCIAR COMANDA)*/
+
+#txt5_BuscarCPFCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn5_PesquisarCPFCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-background-radius: 25px; 
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 1px;
+}
+
+#txt5_ComandaCSS {
+    
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn5_PesquisarCSS{
+    
+    -fx-background-color: #f9cb0f; 
+    -fx-background-radius: 25px; 
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 1px; 
+}
+#btn5_VoltarCSS{
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn5_PagarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+}
+#txt5_TotalCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt5_ValorRecebidoCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt5_TrocoCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#cmb5_FormasPagamentoCSS {
+    -fx-background-color: #fbcb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+}
+
+#cmb5_FormasPagamentoCSS .arrow-button {
+    -fx-background-color: #fbcb0f;
+    -fx-background-radius: 8px;  
+}
+
+#cmb5_FormasPagamentoCSS .combo-box-popup .list-view {
+    -fx-background-color: #fbcb0f;
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+#cmb5_FormasPagamentoCSS .list-cell {
+    -fx-background-color: #fbcb0f;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+#tblView5_ComandaCSS{
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color:  #f9cb0f;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+/* FINAL DA TELA 5 (GERENCIAR COMANDA)*/
+
+/* COMEÇO DA TELA 6 (CARDAPIO)*/
+#btn6_VoltarCSS{
+    -fx-background-color: #f9cb0f;
+    -fx-background-radius: 10px;
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#txt6_ComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt6_ProdutoCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt6_QuantidadeCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt6_TotalCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn6_AdicionarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn6_ComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn6_MaisOpcoesCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn6_LimparCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+/* FINAL DA TELA 6 (CARDAPIO COMANDA)*/
+
+/* COMEÇO DA TELA 7 (MAIS OPÇÕES)*/
+
+#txt7_ComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt7_ProdutoCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt7_QuantidadeCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt7_TotalCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+
+#txt7_CodigoBebidaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn7_AdicionarCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn7_LimparCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn7_ComandaCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#btn7_VoltarCSS{
+    -fx-background-color: #f9cb0f;
+    -fx-background-radius: 10px;
+    -fx-border-color: black; 
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px; 
+}
+#btn7_MaisCSS{
+    -fx-background-color: #f9cb0f;
+    -fx-background-radius: 50px;
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px; 
+}
+#btn7_PesquisarCSS{
+    -fx-background-color: #f9cb0f;
+    -fx-background-radius: 50px;
+    -fx-border-color: black; 
+    -fx-border-radius: 50px;
+    -fx-border-width: 2px; 
+}
+#cmb7_TipoDeBebidaCSS {
+    -fx-background-color: #fbcb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+}
+
+#cmb7_TipoDeBebidaCSS .arrow-button {
+    -fx-background-color: #fbcb0f;
+    -fx-background-radius: 8px;  
+}
+
+#cmb7_TipoDeBebidaCSS .combo-box-popup .list-view {
+    -fx-background-color: #fbcb0f;
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+#cmb7_TipoDeBebidaCSS .list-cell {
+    -fx-background-color: #fbcb0f;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+#cmb7_ProdutoCSS {
+    -fx-background-color: #fbcb0f; 
+    -fx-border-color: black; 
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+}
+
+#cmb7_ProdutoCSS .arrow-button {
+    -fx-background-color: #fbcb0f;
+    -fx-background-radius: 8px;  
+}
+
+#cmb7_ProdutoCSS .combo-box-popup .list-view {
+    -fx-background-color: #fbcb0f;
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+#cmb7_ProdutoCSS .list-cell {
+    -fx-background-color: #fbcb0f;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+#txt7_DescricaoCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
+#txt7_ValorCSS {
+    -fx-background-color: #f9cb0f; 
+    -fx-border-color: black;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 5px;
+}
